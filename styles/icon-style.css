@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'my-fonts';
+  src:  url('fonts/my-fonts.eot?inwjiu');
+  src:  url('fonts/my-fonts.eot?inwjiu#iefix') format('embedded-opentype'),
+    url('fonts/my-fonts.ttf?inwjiu') format('truetype'),
+    url('fonts/my-fonts.woff?inwjiu') format('woff'),
+    url('fonts/my-fonts.svg?inwjiu#my-fonts') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'my-fonts' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-html:before {
+  content: "\e900";
+}
+.icon-Vector-9:before {
+  content: "\e901";
+}
+.icon-Vector-8:before {
+  content: "\e902";
+}
+.icon-Vector-7:before {
+  content: "\e903";
+}
+.icon-Vector-6:before {
+  content: "\e904";
+}
+.icon-Vector-5:before {
+  content: "\e905";
+}
+.icon-Vector-4:before {
+  content: "\e906";
+}
+.icon-Vector-3:before {
+  content: "\e907";
+}
+.icon-Vector-2:before {
+  content: "\e908";
+}
+.icon-react:before {
+  content: "\e909";
+}
+.icon-Vector:before {
+  content: "\e90a";
+}
+.icon-js:before {
+  content: "\e90b";
+}
+.icon-css:before {
+  content: "\e90c";
+}
