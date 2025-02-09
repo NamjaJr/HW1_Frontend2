@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'my-fonts';
-  src:  url('fonts/my-fonts.eot?inwjiu');
-  src:  url('fonts/my-fonts.eot?inwjiu#iefix') format('embedded-opentype'),
-    url('fonts/my-fonts.ttf?inwjiu') format('truetype'),
-    url('fonts/my-fonts.woff?inwjiu') format('woff'),
-    url('fonts/my-fonts.svg?inwjiu#my-fonts') format('svg');
+  src:  url('../fonts/my-fonts.eot?inwjiu');
+  src:  url('../fonts/my-fonts.eot?inwjiu#iefix') format('embedded-opentype'),
+    url('../fonts/my-fonts.ttf?inwjiu') format('truetype'),
+    url('../fonts/my-fonts.woff?inwjiu') format('woff'),
+    url('../fonts/my-fonts.svg?inwjiu#my-fonts') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;

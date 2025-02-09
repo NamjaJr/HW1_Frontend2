@@ -13,6 +13,28 @@
      .container {
          padding:0 40px;
      }
+     .about {
+        flex-direction: column;
+         align-items: center;
+         gap: 32px
+     }
+     .project {
+         flex-direction: column;
+         gap: 24px;
+     }
+     .project:nth-child(even) {
+         .project-image {
+             order: inherit;
+         }
+     }
+     .project-info {
+         max-width: none;
+     }
+ }
+ @media (max-width: 480px) {
+     .hero-links {
+         gap: 16px;
+     }
  }
  @media (max-width: 725px) {
      .container {
@@ -24,12 +46,93 @@
      .hero-description {
          font-size: 16px;
      }
+     .card-description p{
+         font-size: 16px;
+     }
+     .about {
+         gap: 16px
+     }
+     .about .header {
+         font-size: 36px;
+     }
  }
-@media  (min-width: 960px)and (max-width: 1280px){
-    .skills-container {
-        width: 648px;
-        margin: 0 auto;
+ @media (max-width: 580px) {
+     .avatar-wrapper {
+         width: 100%;
+     }
+     .avatar {
+         width: 100%;
+     }
+ }
 
-    }
-}
- 
+ @media (max-width: 960px) {
+     .hero-links {
+         gap: 24px;
+     }
+     .container.call-me {
+         flex-direction: column;
+
+     }
+     .contacts {
+         order: -1;
+         margin-bottom: 24px;
+     }
+     .form {
+         width: 100%;
+         margin-top: 24px;
+     }
+     .contact-form {
+         display: flex;
+         flex-direction: column;
+         width: 100%;
+     }
+     .contact-form label {
+         width: 100%;
+     }
+     .contact-form input,
+     .contact-form textarea {
+         width: 100%;
+     }
+     .links {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         width: 100%;
+         margin-top: 24px;
+     }
+
+     .btn {
+         flex: 1;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+         max-width: 50%;
+     }
+     .links img {
+         margin-left: 24px;
+     }
+ }
+
+ @media (max-width: 480px) {
+     .links {
+         display: flex;
+         align-items: center;
+         flex-wrap: wrap;
+         padding: 0 20px;
+     }
+     .btn {
+         order: -1;
+         max-width: 100%;
+         margin-bottom: 24px;
+
+     }
+     .links .icons {
+         display: flex;
+         flex-wrap: nowrap;
+     }
+ }
+
+
+
+
